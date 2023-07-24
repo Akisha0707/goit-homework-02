@@ -4,7 +4,7 @@
 }
 
 .page-body {
-    font-family: var(--primary-font);
+    font-family: Roboto, sans-serif;
     background: var(--cloud, #F4F4FD);
     text-emphasis-color: #434455;
 }
