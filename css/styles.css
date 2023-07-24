@@ -5,8 +5,7 @@
 
 .page-body {
     font-family: Roboto, sans-serif;
-    background: var(--cloud, #F4F4FD);
-    text-emphasis-color: #434455;
+    color: var(--cloud, #434455);
 }
 
 .list {
@@ -25,18 +24,18 @@
 
 .link {
     text-decoration: none;
- }
+}
 
 .studio {
     color: var(--navyblue, #2e2f42);
-   
+
 }
 
 .element {
     color: var(--navyblue, #2e2f42);
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -58,11 +57,9 @@
 
 .email {
     color: var(--slate, #434455);
-    font-size: 19px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .email:hover,
@@ -174,18 +171,58 @@
 }
 
 .studios {
-        color: var(--navyblue, #f4f4fd);
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 800;
-        line-height: 21px;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-    }
+    color: var(--navyblue, #f4f4fd);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
 
 .tag {
     color: var(--cloud, #F4F4FD);
     font-size: 17px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+/**Portfolio**/
+.body {
+    background: #FFF;
+    font-family: Roboto, sans-serif;
+}
+
+.modal-bt {
+    color: var(--iris, #4D5AE5);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+.space {
+    color: var(--white, #FFF);
+    background: var(--ocean, #404BBF);
+    cursor: pointer;
+}
+
+.content {
+    color: var(--navyblue, #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.divided {
+    color: var(--slate, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
 }
