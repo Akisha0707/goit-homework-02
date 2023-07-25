@@ -56,29 +56,16 @@
     letter-spacing: 0.02px;
 }
 
-.email {
+.contact {
     color: var(--slate, #434455);
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.email:hover,
-.email:focus {
-    color: #404bbf;
-}
-
-.phone {
-    color: var(--slate, #434455);
-    font-size: 19px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
 }
 
-.phone:hover,
-.phone:focus {
+.contact:hover,
+.contact:focus {
     color: #404bbf;
 }
 
@@ -132,7 +119,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    }
+}
 
 .employers {
     background-color: #F4F4FD;
@@ -186,8 +173,8 @@
 }
 
 .tag {
-    color: var(--cloud, #F4F4FD);
     line-height: 1.5;
+    color: var(--cloud, #F4F4FD);
     letter-spacing: 0.02em;
 }
 
