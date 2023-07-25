@@ -6,6 +6,7 @@
 .page-body {
     font-family: Roboto, sans-serif;
     color: var(--cloud, #434455);
+    background-color:#FFFFFF;
 }
 
 .list {
@@ -124,17 +125,22 @@
     letter-spacing: 0.02em;
 }
 
-.do {
+.doing {
     color: var(--navyblue, #2e2f42);
     text-align: center;
     font-size: 36px;
-    line-height: 1.11px;
+    font-weight: 500;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-}
+    }
 
 .employers {
     background-color: #F4F4FD;
+}
+
+.team-photo {
+    background-color: #FFFFFF;
 }
 
 .team {
@@ -189,40 +195,38 @@
 
 /**Portfolio**/
 .body {
-    background: #FFF;
+    color:#434455;
     font-family: Roboto, sans-serif;
 }
 
 .modal-bt {
-    color: var(--iris, #4D5AE5);
-    font-family: Roboto;
+    color: var(--iris, #4d5ae5);
+    background-color: var(--ocean, #F4F4FD);
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
-}
-
-.space {
-    color: var(--white, #FFF);
-    background: var(--ocean, #404BBF);
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
+.modal-bt:hover,
+.modal-bt:focus {
+    background-color: #404BBF;
+}
+
 .content {
-    color: var(--navyblue, #2E2F42);
-    font-family: Roboto;
+    color: var(--navyblue, #2e2f42);
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .divided {
     color: var(--slate, #434455);
-    font-family: Roboto;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
