@@ -138,7 +138,7 @@
     background-color: #F4F4FD;
 }
 
-.team-photo-list {
+.team-photo {
     background-color: #FFFFFF;
 }
 
@@ -194,7 +194,7 @@
 
 /**Portfolio**/
 .body {
-    color: var (--slate, #434455);
+    color: var(--slate, #434455);
     font-family: Roboto, sans-serif;
 }
 
@@ -211,6 +211,7 @@
 
 .modal-bt:hover,
 .modal-bt:focus {
+    color: #FFFFFF;
     background-color: #404BBF;
 }
 
